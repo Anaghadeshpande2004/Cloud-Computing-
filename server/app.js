@@ -1,5 +1,6 @@
 // app.js
 
+
 const express = require("express");
 const cors = require("cors");
 
@@ -8,7 +9,7 @@ const productRoutes = require("./routes/productRoutes");
 const orderRoutes = require("./routes/orderRoutes");
 const cartRoutes = require("./routes/cartRoutes");
 const userToken = require("./routes/userTokenRoute");
-
+require("dotenv").config(); // 👈 Load env variables
 const app = express();
 
 // Middleware
