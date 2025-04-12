@@ -6,7 +6,7 @@ const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '',            // 👈 No password
-  database: 'ecommerce' // ✅ Your DB name
+  database: 'railway' // ✅ Your DB name
 });
 
 db.connect((err) => {
